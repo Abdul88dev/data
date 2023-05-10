@@ -1,0 +1,1 @@
+this is a text file made with powershell terminal and uplaoded to git hub
