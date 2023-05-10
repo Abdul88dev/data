@@ -36,7 +36,7 @@ $upn  = $firsname[0]+"."+ $lastname+"@"+$domain.name
     }
 }
 
-
+#set a licence to the users with L 
 $msusers=Get-MsolUser -UnlicensedUsersOnly
 $licence = "M365x07744838:DESKLESSPACK"
 foreach($msuser in $msusers)
